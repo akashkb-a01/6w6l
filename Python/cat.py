@@ -1,3 +1,5 @@
+#To run the script, type cat <file-path>.
+
 import os
 import sys
 import argparse
