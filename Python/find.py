@@ -1,12 +1,13 @@
 #This file takes input path(current directory) by default.
 #Also to input filename, use -n and to input file size(in bytes), use -s.
+#To run the script find.py <path(current directory by default)> -n <filename> -s <filesize>
 
 import os
 import sys
 import argparse
 
 parser = argparse.ArgumentParser(prog = 'find' , description = 'finds file of given name and size' , epilog = 'Enjoy !!')
-parser.add_argument('path', metavar = 'path' , type = str , action = 'store', nargs ='?' ,default = os.getcwd() ,help = 'path to directory, current drectory by default')
+parser.add_argument('path', metavar = 'path' , type = str , action = 'store', nargs ='?' ,default = os.getcwd() ,help = 'path to directory, current directory by default')
 parser.add_argument('-n','--name' , type = str , help = 'name of the file')
 parser.add_argument('-s','--size' , type = int , help = 'size of file')
 args = parser.parse_args()
