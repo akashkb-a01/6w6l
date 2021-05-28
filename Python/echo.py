@@ -1,3 +1,6 @@
+#Although, echo can be implemented without argparse, this one implements it!!
+#To run the script echo.py <input>
+
 import argparse
 import os
 import sys
