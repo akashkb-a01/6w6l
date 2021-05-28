@@ -1,10 +1,12 @@
-import argparse
+#To run the script, ls <path(current directory by default>
+#To execute ls -l, ls <path> -l
 
+import argparse
 import os
 import sys
 
 parser = argparse.ArgumentParser(prog = 'ls' , usage = '%(prog)s [options] path' , description='ls' , epilog = 'Enjoy !!')
-parser.add_argument('Path' , metavar = 'path' , type = str , action = 'store', nargs='?' ,default = os.getcwd() ,help = 'path to ls, current drectory by default')
+parser.add_argument('Path' , metavar = 'path' , type = str , action = 'store', nargs='?' ,default = os.getcwd() ,help = 'path to ls, current directory by default')
 parser.add_argument('-l' , '--long' , action = 'store_true' , help = 'long list')
 args = parser.parse_args()
 if os.path.isdir(args.Path):
