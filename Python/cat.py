@@ -1,4 +1,4 @@
-#To run the script, type cat <file-path>.
+#To run the script, type cat.py <file-path>.
 
 import os
 import sys
