@@ -1,5 +1,5 @@
-#To run the script, ls <path(current directory by default>
-#To execute ls -l, ls <path> -l
+#To run the script, ls.py <path(current directory by default>
+#To execute ls.py -l, ls <path> -l
 
 import argparse
 import os
