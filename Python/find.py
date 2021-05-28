@@ -1,3 +1,6 @@
+#This file takes input path(current directory) by default.
+#Also to input filename, use -n and to input file size(in bytes), use -s.
+
 import os
 import sys
 import argparse
@@ -10,6 +13,9 @@ args = parser.parse_args()
 i = args.name
 s = args.size
 f = os.listdir(args.path)
+
+#Recursive functions ls, lsn and lss
+
 def ls(z):
 	k=os.listdir(z)
 	num = int(0)
