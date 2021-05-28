@@ -1,3 +1,6 @@
+#grep basically prints only those lines in a file which contains the given input string.
+#To run the script, grep.py <input string> <file path>
+
 import os
 import sys
 import argparse
