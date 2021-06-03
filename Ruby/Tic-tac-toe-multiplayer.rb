@@ -30,6 +30,9 @@ class Ttt
 				arrp1.push(num)
 				entry[num-1] = marker1
 			end
+		else
+			puts "Enter number in range 1-9"
+			take_inp1	
 		end
 	end
 
@@ -45,6 +48,9 @@ class Ttt
 				arrp2.push(num)
 				entry[num-1] = marker2
 			end
+		else
+			puts "Enter number in range 1-9"
+			take_inp2	
 		end
 	end	
 
