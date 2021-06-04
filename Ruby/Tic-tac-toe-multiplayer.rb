@@ -64,7 +64,7 @@ class Ttt
 		end	
 		if arrp1.include? 7 and arrp1.include? 5 and arrp1.include? 3
 			return true
-		elsif arrp1.include? 9 and arrp1.include? 5 and arrp1.include? 9
+		elsif arrp1.include? 9 and arrp1.include? 5 and arrp1.include? 1
 			return true
 		else return false
 		end
@@ -80,7 +80,7 @@ class Ttt
 		end	
 		if arrp2.include? 7 and arrp2.include? 5 and arrp2.include? 3
 			return true
-		elsif arrp2.include? 9 and arrp2.include? 5 and arrp2.include? 9
+		elsif arrp2.include? 9 and arrp2.include? 5 and arrp2.include? 1
 			return true
 		else return false
 		end
