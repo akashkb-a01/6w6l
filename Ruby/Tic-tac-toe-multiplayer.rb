@@ -24,6 +24,7 @@ class Ttt
 		num = gets.chomp.to_i
 		if num>0 and num<10
 			if arrp2.include?num or arrp1.include?num
+				system "clear"
 				puts "The following entry has already been marked."
 				take_inp1
 			else
@@ -31,6 +32,7 @@ class Ttt
 				entry[num-1] = marker1
 			end
 		else
+			system "clear"
 			puts "Enter number in range 1-9"
 			take_inp1	
 		end
@@ -43,6 +45,7 @@ class Ttt
 		num = gets.chomp.to_i
 		if num>0 and num<10
 			if arrp2.include?num or arrp1.include?num
+				system "clear"
 				puts "The following entry has already been marked."
 				take_inp2
 			else
@@ -50,6 +53,7 @@ class Ttt
 				entry[num-1] = marker2
 			end
 		else
+			system "clear"
 			puts "Enter number in range 1-9"
 			take_inp2	
 		end
