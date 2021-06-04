@@ -34,6 +34,7 @@ class Ttt
 			puts "Enter number in range 1-9"
 			take_inp1	
 		end
+		system "clear"
 	end
 
 	def take_inp2
@@ -52,6 +53,7 @@ class Ttt
 			puts "Enter number in range 1-9"
 			take_inp2	
 		end
+		system "clear"
 	end	
 
 	def winp1?
