@@ -121,7 +121,6 @@ game.take_inp1
 k=0
 while !(game.winp1?)
 	if k==2
-		puts "Game tied!!"
 		break
 	end
 	game.take_inp2
@@ -139,4 +138,6 @@ if k!=2
 	elsif game.winp2?
 		puts "Congratuations, #{p2} won!!"
 	end
+else
+	puts "Game tied!!"
 end
