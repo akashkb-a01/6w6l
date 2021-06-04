@@ -87,7 +87,7 @@ class Ttt
 	end
 end
 
-
+puts "Welcome to the game!!"
 puts "Please enter name of first Player"
 p1 = gets.chomp
 puts "Please enter a single character to be used as marker for first Player"
