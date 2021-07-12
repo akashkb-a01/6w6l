@@ -6,7 +6,7 @@ import (
 )
 
 func Sqrt(x float64) float64 {
-	d := 0.0000000000000000001
+	d := 1e-16
 	z := x/2
 	var t = z
 for {
